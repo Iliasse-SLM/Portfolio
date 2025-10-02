@@ -1627,3 +1627,24 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.cv-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.cv-preview img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.cv-preview a.btn {
+  display: inline-block;
+  text-align: center;
+}
