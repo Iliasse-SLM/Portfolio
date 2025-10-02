@@ -1638,7 +1638,7 @@ section,
 }
 
 .cv-preview img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border: 1px solid #ccc;
   margin-bottom: 10px;
