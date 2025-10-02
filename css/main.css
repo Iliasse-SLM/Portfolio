@@ -1631,11 +1631,14 @@ section,
 .cv-preview {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
-  max-width: 400px;
+  align-items: center;    /* centre horizontalement l'aperçu et le bouton */
+  justify-content: center; /* centre verticalement dans son espace */
+  margin: 0 auto;          /* centre le bloc dans son conteneur parent */
+  max-width: 400px;        /* largeur max de l'aperçu */
+  padding: 20px;           /* espace interne confortable */
+  text-align: center;      /* centre tout le texte/vignettes */
 }
+
 
 .cv-preview img {
   width: 50%;
